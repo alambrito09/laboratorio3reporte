@@ -10,7 +10,7 @@ public class pruebas {
     public static void main(String[] args) {
         try {
             // Obtener productos con existencia menor a 20
-            List<Producto> productos = new ProductoService().obtenerTodosmenores30("");
+            List<Producto> productos = new ProductoService().obtenerTodosmenores30("precio < 10");
 
 
             // Generar el reporte en formato PDF
